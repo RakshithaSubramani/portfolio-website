@@ -11,6 +11,9 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeProjectInteractions();
     initializeTypingEffect();
     initializePerformanceOptimizations();
+    initializeAccessibility();
+    initializeEasterEgg();
+    initializeContactEnhancements();
 });
 
 // ======================
@@ -408,7 +411,7 @@ function initializeLazyLoading() {
 }
 
 // ======================
-// Contact Form Enhancement (if needed in future)
+// Contact Form Enhancement
 // ======================
 function initializeContactEnhancements() {
     const contactItems = document.querySelectorAll('.contact-item');
@@ -541,13 +544,6 @@ function activateEasterEgg() {
     document.body.appendChild(message);
     setTimeout(() => message.remove(), 3000);
 }
-
-// Initialize accessibility and easter egg
-document.addEventListener('DOMContentLoaded', () => {
-    initializeAccessibility();
-    initializeEasterEgg();
-    initializeContactEnhancements();
-});
 
 // ======================
 // Utility Functions
