@@ -839,10 +839,6 @@ footer {
     }
 }
 
-.cta-button:hover {
-    animation: pulse 2s infinite;
-}
-
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 8px;
